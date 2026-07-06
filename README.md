@@ -11,11 +11,17 @@ Our approach integrates rigorous engineering discipline with Lean-Agile and DevO
 
 ## Templates
 
-Standardized templates are provided to ensure consistency and traceability across the system life cycle:
+Standardized templates are provided to ensure consistency and traceability across the system life cycle.
 
+### Technical Templates
 - **[Requirements Template](templates/requirements.md)**
 - **[Architecture Template](templates/architecture.md)**
+- **[Interface Control Document (ICD) Template](templates/icd.md)**
 - **[Verification/Test Template](templates/verification.md)**
+
+### Governance & Decision Templates
+- **[System Engineering Plan (SEP) Template](templates/sep.md)**
+- **[Architecture Decision Record (ADR) Template](templates/adr.md)**
 - **[Improvement Backlog Template](templates/improvement_backlog.md)**
 
 ## Key Principles
