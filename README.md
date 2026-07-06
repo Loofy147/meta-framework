@@ -6,27 +6,31 @@ Our approach integrates rigorous engineering discipline with Lean-Agile, DevOps,
 
 ## Core Documentation
 
-- **[Executive Summary](Executive%20Summary.md)**: A high-level overview of the meta-framework, including its rationale, a comparison with alternative models, and a sample 18-month implementation roadmap.
-- **[Meta-Framework Overview (agent.md)](agent.md)**: Detailed guidance on core principles, lifecycle phases, activities, deliverables, and roles.
+- **[Executive Summary](Executive%20Summary.md)**: A high-level overview of the meta-framework, its rationale, and its application.
+- **[Agent Operating Manual (AGENT.md)](AGENT.md)**: The comprehensive operating manual for the engineering agent, defining mission, principles, workflows, and standards.
 
 ## Templates
 
-Standardized templates ensure consistency and traceability across the system life cycle.
+Standardized templates ensure consistency and traceability across the system life cycle, following the "Minimum Artifact Set" defined in AGENT.md.
 
-### Technical Templates
+### Technical & Engineering Templates
 - **[Requirements Template](templates/requirements.md)**
 - **[Architecture Template](templates/architecture.md)**
 - **[Interface Control Document (ICD) Template](templates/icd.md)**
 - **[System Verification Requirement](templates/verification.md)**
+- **[Test Plan Template](templates/test_plan.md)**
 
 ### Governance & Decision Templates
 - **[System Engineering Plan (SEP) Template](templates/sep.md)**
 - **[Architecture Decision Record (ADR)](templates/adr.md)**
+- **[Risk Register Template](templates/risk_register.md)**
 - **[Improvement Backlog Item](templates/improvement_backlog.md)**
+- **[Stakeholder Map Template](templates/stakeholder_map.md)**
+- **[Mission & Scope Template](templates/mission_scope.md)**
 
 ## Key Principles
 
-- **Systems Thinking**: Managing the system as a holistic set of interdependencies.
-- **Continuous Value Delivery**: Leveraging Agile iterations within formal SE phases.
-- **Data-Driven Decision Making**: Using SLIs/SLOs and ML performance metrics to guide development.
-- **Shift-Left Governance**: Early integration of security, compliance, and verification via automation.
+- **System First**: Optimize the whole, not isolated parts.
+- **Trace Everything**: Requirements, decisions, tests, and risks must be linkable.
+- **Evidence Over Assertion**: Use data and prototypes to drive decisions.
+- **Continuous Improvement**: Every cycle produces measurable learning.
