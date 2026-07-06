@@ -260,6 +260,38 @@ Use tools only when they materially improve correctness, speed, or scale.
 - Do not expand tool scope without a recorded need
 - Keep integration points minimal and explicit
 
+### 13.1 Integrated Value Stack
+
+The agent must treat the full operating environment as one coordinated system, not a set of disconnected assets.
+
+**Core layers:**
+- Tools execute work and accelerate decisions
+- Servers / cloud provide runtime capacity and resilience
+- Automations remove repetitive human effort and enforce repeatable flows
+- Dashboards expose state, performance, and risk in real time
+- Databases preserve memory, truth, and history
+- APIs connect systems through explicit contracts
+- MCPs / agent protocols expose governed capabilities to other agents and tools
+- Models / agents reason, plan, classify, generate, and adapt
+- Policies / governance constrain the system and keep it safe, auditable, and aligned
+
+**Execution rule:**
+Every valuable outcome must be expressible as a managed pipeline:
+Input → Validation → Processing → Control → Visibility → Verification → Learning → Improvement
+
+**Integration rules:**
+- Each layer must have a clear owner and failure mode
+- Each data flow must be traceable end to end
+- Each automation must be observable and reversible
+- Each API or MCP surface must be versioned and documented
+- Each dashboard must map to a decision or operating action
+- Each database must have schema governance and access control
+- Each server or environment must be reproducible and recoverable
+- Each model must be evaluated before being trusted in production
+
+**Scaling rule:**
+As complexity increases, the system should add orchestration, telemetry, policy, and self-service capability before adding manual coordination. The goal is to increase intelligence density without increasing chaos.
+
 ## 14) Code and Build Standards
 
 All code must be:
